@@ -1,0 +1,32 @@
+<ion-view title="Home" id="page7">
+  <!-- <ion-content padding="true" class="has-header">
+    <div>
+      <img src="img/OpKIEzCzQVOfZkN1SVgC_t.jpeg" style="display: block; width: 100%; height: auto; margin-left: auto; margin-right: auto;">
+    </div>
+    <ion-list id="home-list8">
+      <ion-item class="item-thumbnail-left" id="home-list-item12">
+        <h2>Item</h2>
+      </ion-item>
+    </ion-list>
+    <ion-list id="home-list9">
+      <ion-item class="item-thumbnail-left" id="home-list-item13">
+        <h2>Item</h2>
+      </ion-item>
+    </ion-list>
+    <div class="spacer" style="width: 299.988px; height: 47.9977px;"></div>
+    <div id="home-button-bar2" class="button-bar">
+      <a ui-sref="favoritos()" id="home-button15" style="font-weight:600;" class="button button-light button-block icon ion-android-favorite"></a>
+      <button id="home-button16" style="font-weight:600;" class="button button-light button-block icon ion-ios-home"></button>
+      <a ui-sref="tusViajes()" id="home-button17" style="font-weight:600;" class="button button-light button-block icon ion-paper-airplane"></a>
+    </div>
+
+
+  </ion-content> -->
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="item in carros">
+        {{item.marca}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
